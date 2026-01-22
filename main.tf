@@ -9,6 +9,6 @@ terraform {
     encrypt        = true
   }
 }
-resource "aws_s3_bucket" "philip567" {
-bucket = "jenkins-test-bucket-{yournamehere}"
+resource "aws_s3_bucket" "example" {
+bucket = "jenkins-test-bucket-philip135"
 }
