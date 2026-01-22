@@ -3,7 +3,7 @@ provider "aws" {
 }
 terraform {
   backend "s3" {
-    bucket         = "jenkins-state-philip1"   
+    bucket         = "jenkins-state-philip2"   
     key            = "terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
